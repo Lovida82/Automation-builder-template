@@ -8,8 +8,12 @@
 
 ## 사례 목록
 
-> 아직 등록된 사례가 없습니다.
-> 첫 번째 사례를 공유해 주세요! → [자동화 공유 Issue](../../issues/new?template=automation_share.md)
+| 사례 | 경로 | 난이도 | 요약 |
+|------|------|--------|------|
+| [SAP 웹포털 일일 판매실적 다운로드](./sap-sales-daily/) | 웹포털 | 하 | 매일 아침 전일 판매실적 조회 → 엑셀 다운로드 → 폴더 정리 (참고용 샘플) |
+
+> 본인 사례를 추가해 주세요! → [자동화 공유 Issue](../../issues/new?template=automation_share.md)
+> 또는 PR로 `examples/your-case-name/` 폴더를 추가하셔도 됩니다.
 
 ### 사례 작성 시 권장 형식
 
