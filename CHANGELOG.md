@@ -5,8 +5,21 @@
 
 ## [Unreleased]
 
-### 추가 예정
-- 사례 예제 폴더에 실제 자동화 PRD 첨부
+### 추가
+- `examples/sap-sales-daily/` — 첫 자동화 사례 (SAP 웹포털 일일 판매실적 다운로드)
+  - `README.md` (업무/환경/흐름/GUI 모형/효과/재사용 팁)
+  - `PRD-snippet.md` (DECISIONS 발췌 + 더미 셀렉터)
+  - `lessons-learned.md` (시행착오 4건)
+  - 모든 데이터는 더미, 회사 식별 단서·이모지 없음
+- `distribution/` — 배포 가이드 및 오프라인 배포본
+  - `HOW_TO_DISTRIBUTE.md` (배포 3가지 방법 + 받는 사람용 안내 문구 + 배포 전 체크리스트)
+  - `bundle/START_HERE.md` (배포본 받는 사람용 첫 안내)
+  - `rebuild-bundle.ps1` (배포본 재생성 스크립트)
+- 저장소를 GitHub template repository로 지정 ("Use this template" 버튼 활성화)
+
+### 변경
+- `examples/README.md` — 사례 목록 표에 첫 사례 등록
+- `.gitignore` — 생성 배포본(`distribution/bundle/`) 추적 제외 (START_HERE.md 제외)
 
 ---
 
